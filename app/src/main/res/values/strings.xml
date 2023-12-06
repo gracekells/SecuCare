@@ -1,5 +1,18 @@
 <resources>
     <string name="app_name">SecuCare</string>
+
+    <string name="description_splash_one">An app that provides a social button feature,
+        press this button if you are in danger.The app will find help for you.</string>
+
+    <string name="emergency_title">Emergency Features</string>
+    <string name="emergency_button_text">Initiate Emergency</string>
+
+    <string name="report_title">Incident Reporting</string>
+    <string name="report_button_text">Submit Report</string>
+
+    <string name="location_sharing_title">Live Location Sharing</string>
+    <string name="location_sharing_button_text">Share Location</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

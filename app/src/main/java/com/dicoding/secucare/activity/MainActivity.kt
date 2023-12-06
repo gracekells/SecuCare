@@ -1,4 +1,4 @@
-package com.dicoding.secucare.ui
+package com.dicoding.secucare.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

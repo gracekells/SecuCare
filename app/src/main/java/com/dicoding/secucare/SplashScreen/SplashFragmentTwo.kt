@@ -1,4 +1,4 @@
-package com.dicoding.secucare.ui
+package com.dicoding.secucare.SplashScreen
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -14,10 +14,10 @@ private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
- * Use the [LocationSharingFragment.newInstance] factory method to
+ * Use the [SplashFragmentTwo.newInstance] factory method to
  * create an instance of this fragment.
  */
-class LocationSharingFragment : Fragment() {
+class SplashFragmentTwo : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -35,7 +35,7 @@ class LocationSharingFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_location_sharing, container, false)
+        return inflater.inflate(R.layout.fragment_splash_two, container, false)
     }
 
     companion object {
@@ -45,12 +45,12 @@ class LocationSharingFragment : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragment LocationSharingFragment.
+         * @return A new instance of fragment SplashFragmentTwo.
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            LocationSharingFragment().apply {
+            SplashFragmentTwo().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)
