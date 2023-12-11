@@ -1,4 +1,4 @@
-package com.dicoding.secucare.adapter
+package com.dicoding.secucare.ui.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager

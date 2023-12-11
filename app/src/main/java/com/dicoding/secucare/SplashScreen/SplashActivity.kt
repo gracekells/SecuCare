@@ -1,10 +1,10 @@
-package com.dicoding.secucare.activity
+package com.dicoding.secucare.SplashScreen
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.viewpager.widget.ViewPager
 import com.dicoding.secucare.R
-import com.dicoding.secucare.adapter.SplashPagerAdapter
+import com.dicoding.secucare.ui.adapter.SplashPagerAdapter
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

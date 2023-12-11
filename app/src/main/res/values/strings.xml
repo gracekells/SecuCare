@@ -4,8 +4,13 @@
     <string name="description_splash_one">An app that provides a social button feature,
         press this button if you are in danger.The app will find help for you.</string>
 
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
     <string name="emergency_title">Emergency Features</string>
     <string name="emergency_button_text">Initiate Emergency</string>
+
 
     <string name="report_title">Incident Reporting</string>
     <string name="report_button_text">Submit Report</string>
