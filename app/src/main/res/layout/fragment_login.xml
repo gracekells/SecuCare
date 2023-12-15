@@ -39,7 +39,7 @@
             android:transitionName="@string/email"
             tools:alpha="100"/>
 
-        <com.dicoding.secucare.customview.CustomPasswordView
+        <com.dicoding.secucare.ui.customview.CustomPasswordView
             android:id="@+id/ed_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
